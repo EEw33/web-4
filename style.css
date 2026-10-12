@@ -1,0 +1,82 @@
+/* Color Core */
+body.gothic-theme {
+    background-color: #0d0404; /* Very dark, almost black with a red tint */
+    color: #e0c9c9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Text color priority */
+.gothic-card h3, 
+.form-label, 
+.form-check-label {
+    color: white !important;
+}
+
+/* Card Styling */
+.gothic-card {
+    background-color: #170707;
+    border: 1px solid #4a0f0f;
+    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.2);
+}
+
+/* Form Controls */
+.form-control, .form-select {
+    background-color: #000000;
+    border: 1px solid #5c1414;
+    color: #ffffff;
+}
+
+/* Placeholder color */
+.form-control::placeholder {
+    color: #7a5c5c;
+}
+
+/* Focus states (vital for UX) */
+.form-control:focus, .form-select:focus {
+    background-color: #120000;
+    border-color: #ff1a1a;
+    box-shadow: 0 0 0 0.25rem rgba(220, 20, 60, 0.3);
+    color: #ffffff;
+}
+
+/* Checkboxes and Radios */
+.form-check-input {
+    background-color: #000;
+    border-color: #5c1414;
+}
+.form-check-input:checked {
+    background-color: #8b0000;
+    border-color: #ff1a1a;
+}
+
+/* Custom Buttons */
+.btn-gothic {
+    background-color: #5c1414;
+    color: #fff;
+    border: 1px solid #8b0000;
+    transition: all 0.3s ease;
+}
+
+.btn-gothic:hover {
+    background-color: #8b0000;
+    border-color: #ff1a1a;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 26, 26, 0.5);
+}
+
+.btn-outline-danger {
+    color: #ff4d4d;
+    border-color: #5c1414;
+}
+.btn-outline-danger:hover {
+    background-color: #4a0f0f;
+    color: #fff;
+}
+
+/* Validation colors tweaking for dark mode */
+.valid-feedback {
+    color: #4CAF50; /* Keep green for success readability */
+}
+.invalid-feedback {
+    color: #ff4d4d; /* Bright red for errors */
+}
